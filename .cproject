@@ -81,7 +81,6 @@
 								</option>
 								<option id="com.crt.advproject.link.gcc.hdrlib.477856659" name="Library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.codered.semihost" valueType="enumerated"/>
 								<option id="gnu.c.link.option.libs.206591324" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="emWin_522_LPCXpresso510_M3_LE_Redlib"/>
 									<listOptionValue builtIn="false" value="lpc_chip_175x_6x"/>
 								</option>
 								<option id="gnu.c.link.option.paths.799045718" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
