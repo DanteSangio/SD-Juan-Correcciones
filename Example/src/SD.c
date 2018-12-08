@@ -16,10 +16,10 @@
 #include "queue.h"
 #include <cr_section_macros.h>
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+#include "stdlib.h"
 #include "sdcard.h"
 #include "fat32.h"
-
+#include "string.h"
 
 #define MFRC522_BIT_RATE 4000000
 
@@ -71,7 +71,7 @@ static volatile bool fIntervalReached;
 static volatile bool fAlarmTimeMatched;
 static volatile bool On0, On1;
 
-
+void SystemInit(void);
 
 /*****************************************************************************
  * Private functions

@@ -34,7 +34,7 @@ http://www.tavi.co.uk/phobos/fat.html
 
 
 #define SET     1
-#define DEBUGOUT(...) printf(__VA_ARGS__)
+#define DEBUGOUT(...) //printf(__VA_ARGS__)
 
 /***************************************************************************************
                            Global Variables
